@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Jurnal de călătorie — Pași prin Europa</title>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="assets/css/custom.css" />
+<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+</head>
+<body class="no-sidebar is-preload">
+<div id="page-wrapper">
+
+  <div id="header">
+    <div class="inner">
+      <header><h1><a href="index.html" id="logo">Pași prin Europa</a></h1></header>
+    </div>
+    <nav id="nav">
+      <ul>
+        <li><a href="index.html">Pagina de start</a></li>
+        <li><a href="despre.html">Despre noi</a></li>
+        <li><a href="jurnal.html">Jurnal de călătorie</a></li>
+        <li><a href="harta.html">Hartă interactivă</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="wrapper style1">
+    <div class="container">
+      <article id="main" class="special">
+        <header>
+          <h2>Jurnal de călătorie</h2>
+          <p>Căutare după titlu/țară + filtrare după regiuni și categorii</p>
+        </header>
+
+        <section id="filters">
+
+  <!-- RÂND 1: Căutare -->
+  <div class="search-row">
+    <label for="q">Căutare (titlu / țară)</label>
+    <input type="text" id="q" placeholder="ex: Roma, Italia, Norvegia..." />
+  </div>
+
+  <!-- RÂND 2: Filtre -->
+  <div class="filter-row">
+    <div>
+      <select id="regiune">
+  <option value="" selected disabled hidden>Regiune</option>
+  <option value="">Toate</option>
+  <option>Europa de Sud</option>
+  <option>Europa de Vest</option>
+  <option>Europa Centrală</option>
+  <option>Europa de Est</option>
+  <option>Europa de Nord</option>
+</select>
+    </div>
+
+    <div>
+      <select id="tara">
+  <option value="" selected disabled hidden>Țară</option>
+  <option value="">Toate</option>
+</select>
+    </div>
+
+    <div>
+      <select id="aventura">
+  <option value="" selected disabled hidden>Aventuri</option>
+  <option value="">Toate</option>
+  <option>montane</option>
+  <option>pe apă</option>
+  <option>urban</option>
+  <option>unice</option>
+</select>
+    </div>
+
+    <div>
+      <select id="gastronomie">
+  <option value="" selected disabled hidden>Gastronomie</option>
+  <option value="">Toate</option>
+  <option>pizza</option>
+  <option>gelato</option>
+  <option>tapas</option>
+  <option>croissant</option>
+</select>
+    </div>
+
+    <div>
+      <select id="natura">
+  <option value="" selected disabled hidden>Natură</option>
+  <option value="">Toate</option>
+  <option>plajă</option>
+  <option>fiorduri</option>
+</select>
+    </div>
+
+    <div class="reset-wrap">
+      <a href="#" id="reset" class="button">Reset</a>
+    </div>
+  </div>
+
+</section>
+      </article>
+
+      <hr />
+
+      <div class="row post-grid" id="postsGrid">
+        <!-- Populat din JS -->
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="footer" class="simple-footer">
+    <div class="container">
+      <div class="footer-bar">
+        <div class="footer-left">Pași prin Europa</div>
+        <div class="footer-right">@itsmjhere</div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+</div>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.dropotron.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/blog-common.js"></script>
+<script src="assets/js/jurnal.js"></script>
+<script src="assets/js/filters-anim.js"></script>
+</body>
+</html>

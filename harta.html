@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Hartă interactivă — Pași prin Europa</title>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="assets/css/custom.css" />
+<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body class="no-sidebar is-preload">
+<div id="page-wrapper">
+
+  <div id="header">
+    <div class="inner">
+      <header><h1><a href="index.html" id="logo">Pași prin Europa</a></h1></header>
+    </div>
+    <nav id="nav">
+      <ul>
+        <li><a href="index.html">Pagina de start</a></li>
+        <li><a href="despre.html">Despre noi</a></li>
+        <li><a href="jurnal.html">Jurnal de călătorie</a></li>
+        <li><a href="harta.html">Hartă interactivă</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="wrapper style1">
+    <div class="container">
+      <article id="main" class="special">
+        <header>
+          <h2>Hartă interactivă</h2>
+          <p>Click pe pin → detalii + slider imagini + buton „citește articolul”</p>
+        </header>
+
+        <div class="row gtr-200">
+          <div class="col-8 col-12-mobile">
+            <div id="map"></div>
+          </div>
+          <div class="col-4 col-12-mobile" id="pinCard">
+            <header><h3>Pin - locație</h3></header>
+            <p id="pinMeta">Apasă un pin ca să apară: titlu locație, țară, data vizitei.</p>
+
+            <div id="slider" style="display:none;">
+              <a href="#" class="image featured"><img id="slideImg" src="images/pic06.jpg" alt="" /></a>
+              <div class="slider-controls">
+                <a href="#" id="prev" class="button">◀</a>
+                <a href="#" id="next" class="button">▶</a>
+              </div>
+            </div>
+
+            <p style="margin-top:1em;">
+              <a href="#" id="readBtn" class="button" style="display:none;">Citește articolul</a>
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+
+  
+  <div id="footer" class="simple-footer">
+    <div class="container">
+      <div class="footer-bar">
+        <div class="footer-left">Pași prin Europa</div>
+        <div class="footer-right">@itsmjhere</div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.dropotron.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/blog-common.js"></script>
+<script src="assets/js/harta.js"></script>
+</body>
+</html>
